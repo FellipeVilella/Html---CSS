@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de grouping tags</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+            margin: 0px;
+        }
+        header {
+            background-color: maroon;
+            text-align: center;
+            padding: 2px;
+        }
+        header > nav {
+            text-align: left;
+        }
+        h1 {
+            color: blanchedalmond;
+        }
+        main > div {
+            border: 1px solid brown;
+            padding: 8px;         
+        }
+        nav > a {
+            color: black;
+            margin-right: 4px;
+        }
+        div > a { /*não funcionou*/
+            text-align: right;
+        }
+        div > img {
+            margin: auto;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lojas Click e Retire</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nossos Produtos</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <div id="secao1">
+            <h2>Referência em atendimento</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad incidunt facere expedita quaerat nihil. Libero repellat esse delectus deleniti, tempora voluptate. Aperiam esse natus dolorem sequi mollitia officia est harum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate blanditiis earum, provident maxime accusantium nihil incidunt perferendis quia. Ratione ut reprehenderit quasi eius doloremque hic excepturi obcaecati libero sit aut!</p>
+            <img src="docs/images.jpg" alt="referencia em atendimento">
+        </div>
+        <div id="secao2">
+            <h2>Nossos Produtos</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, ratione dolorum voluptate cum dolores laborum odit quo eum alias eos tempore consequuntur minima libero accusamus, earum amet asperiores quaerat sint?</p>
+            <img src="docs/cozinha.jpg" alt="cozinha completa">
+        </div>
+        <div id="secao3">
+            <h2>Fale Conosco</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi possimus sit, consequuntur quod molestias, facilis sunt vel nam necessitatibus nostrum porro repudiandae iure aperiam magnam obcaecati saepe perspiciatis! Vitae, ex.</p>
+            <a href="#" target="_blank" rel="next">Send a Mail</a>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

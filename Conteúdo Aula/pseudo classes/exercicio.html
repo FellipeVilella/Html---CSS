@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de pseudo class</title>
+    <style>
+        div {
+            background-color: aqua;
+            width: 170px;
+        }
+        div:hover {
+            color: rgb(255, 0, 0);
+        }
+        div:hover a {
+            display: block;
+        }
+        div > a {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Hover</h1>
+    <p>Menu</p>
+    <div>
+        Clique no Menu
+        <a href="#">inicio</a>
+        <a href="#">Quem Sou Eu?</a>
+        <a href="#">Meus Vídeos</a>
+        <a href="#">Falar comigo</a>
+    </div>
+    
+</body>
+</html>

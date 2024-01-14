@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em várias plataformas diferentes ou aumente e diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width:620px )" srcset="imagens/fotofundoP.png" sizes="imagens/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotofundoM.png" sizes="imagens/png">
+        <img src="imagens/fotofundoG.png" alt="Imagem dinamica">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+<p>Vamos aprender a reprodiuzir audio em HTML5</p>
+<p>Clique no Play e ouça a música que preparamos pra você!</p>
+<audio autoplay controls>
+    <source src="midia/NaturalLight.mp3" type="audio/mpeg">
+    <source src="midia/NaturalLight.ogg" type="audio/ogg">
+    <source src="midia/NaturalLight.wav" type="audio/wav">
+Seu navegador não suporta elemento de audio
+</audio>
+</body>
+
+</html>
