@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        /*
+                    HIERARQUIA DAS TABELAS
+
+            TABLE = TABELA
+                TABLE ROW (TR) = LINHA DA TABELA
+                    TABLE HEADER (TH) = CABEÇALHO DA TABELA
+                    TABLE DATA (TD) - DADO DA TABELA
+        */
+        body {
+            background-color: cornflowerblue;
+        }
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse; /*serva para separar (separate) ou grudar as bordas (collapse) da tabela*/
+        }
+        td {
+            border: 2px solid yellow;
+            text-align: center; /*alinhamento horizontal das informações das células*/
+            vertical-align: middle; /*alinhamento vertical das informações das células (top, middle and bottom)*/
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td class="dado">C4</td>
+        </tr>
+    </table>
+</body>
+</html>
